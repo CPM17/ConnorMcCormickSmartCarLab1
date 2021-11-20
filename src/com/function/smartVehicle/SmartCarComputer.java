@@ -16,6 +16,9 @@ public class SmartCarComputer {
 	
 	public SmartCarComputer() {
 	computer = new RasPi ();
+	LeftDrive = new drive ();
+	RigtDrive = new drive ();
+	
 	}
 	
 	public void SystemCheck () {
